@@ -44,7 +44,7 @@
         <dependency>
             <groupId>org.mybatis.generator</groupId>
             <artifactId>mybatis-generator-core</artifactId>
-         </dependency>
+        </dependency>
         <dependency>
             <groupId>com.ibeetl</groupId>
             <artifactId>beetl</artifactId>
@@ -54,6 +54,11 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
