@@ -23,6 +23,10 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>cn.hereyou</groupId>
+            <artifactId>backend-utils</artifactId>
+         </dependency>
         <!-- Druid引入 -->
         <dependency>
             <groupId>com.alibaba</groupId>

@@ -34,6 +34,7 @@
     <modules>
         <module>backend-common</module>
         <module>backend-utils</module>
+        <module>backend-user</module>
     </modules>
      <dependencies>
         <dependency>
@@ -117,6 +118,12 @@
                 <artifactId>backend-utils</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>cn.hereyou</groupId>
+                <artifactId>backend-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
 
 
 
